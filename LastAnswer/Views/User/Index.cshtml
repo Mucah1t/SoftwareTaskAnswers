@@ -1,0 +1,30 @@
+﻿@model List<ResultGorestDto>
+
+
+<div class="table-responsive">
+    <table class="table table-stripped">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Guest</th>
+                <th>Email</th>
+                <th>Gender</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th>@item.Id</th>
+                    <td>@item.Name</td>
+                    <td>@item.Email</td>
+                    <td>@item.Gender</td>
+                    <td>@item.Status</td>
+                </tr>
+            }
+
+
+        </tbody>
+    </table>
+</div>

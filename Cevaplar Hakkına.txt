@@ -1,0 +1,2 @@
+1. soru Software exam answer klasöründe diğer cevaplar ise ilgili cevap klasöründe. Bütün sorular çözülmüş ve çalışır durumdadır.
+Proje ayrıca GitHub'a da yüklenmiştir. (https://github.com/Mucah1t)
